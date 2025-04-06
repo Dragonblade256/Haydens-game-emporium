@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+<title> Contact Us </title>
+<link rel="stylesheet" href="../CSS/CSS_file.css">
+<style>
+    table, the, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <img src="../Images/logo_edited.png" alt="A chess knight standing on a dice" style="width:200px;height: 200px;"> 
+            <h1 class="logo">Hayden's Game Emporium</h1>
+            <br>
+        </div>
+        <br>
+        <nav>
+            <a href='../Index.html';> Home Page </a> 
+            <a href='Gallery Page.html';>Gallery Page </a>
+            <a href='Contact Us.html';> Contact Us </a>
+        </nav>
+            </header>
+        <br>
+    <H2> Contact Us </H2>
+<table>
+    <tr>
+       <th>Admin contact name</th>
+       <th>Email address</th>
+       <th>Address</th>
+       <th>Phone number</th>
+    </tr>
+    <tr>
+       <td>Hayden Druve</td>
+       <td>Haydendruve@outlook.com</td>
+       <td>16 Blackwall Drive, Darra QLD 4076</td>
+       <td>0411 111 111</td>
+    </tr>
+</table>
+<br>
+    <form>
+        <fieldset>
+            <legend>User Personal Information</legend>
+            <label for="name">Enter your full name:</label>
+            <input type="text" id="name" name="name" required >
+            <label for="name">Enter your username:</label>
+            <input type="text" id="username" name="username" required >
+            <br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required >
+            <label for="phonenum">Enter your phone number:</label>
+            <input type="number" id="phonenum" name="phonenum" required >
+            <br>
+            <label for="password">Enter your password:</label>
+            <input type="password" id="password" name="pass" required >
+            <label for="confirmPassword">Confirm your password:</label>
+            <input type="password" id="confirmPassword" name="confirmPass" required >
+            <br>
+            <label>Enter your gender:</label>
+            <div class="gender-group">
+                <input type="radio" name="gender" value="male" id="male" required >
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female" >
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="others" id="others" >
+                <label for="others">Other</label>
+            </div>
+            <label for="dob">Enter your Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required >
+            <br>
+            <label for="dropdown">Reason For Contact Request</label>
+                <select id="dropdown">
+                    <option disabled selected="selected">Please Select</option>
+                    <option value="1"> Place an Order </option>
+                    <option value="2"> Give Feedback </option>
+                    <option value="3"> Request Information </option>
+                    <option value="4"> Other </option>
+                    </select>
+            <br>
+            <label>Enter your preferred contact method:</label>
+            <div class="Contact Method">
+                <input type="checkbox" name="Contact Method" value="contactemail" id="contactemail" required >
+                <label for="contactemail">Email</label>
+                <input type="checkbox" name="Contact Method" value="phone" id="phone" >
+                <label for="phone">Phone</label>
+                <input type="checkbox" name="Contact Method" value="SMS" id="SMS" >
+                <label for="SMS">SMS</label>
+            </div>
+            <br>
+            <label for="address">Enter your Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            <br>
+            <input type="submit" value="Submit" >
+        </fieldset>
+    </form>
+    <footer>
+        <img src="../Images/Originals/facebook_logo.png" height="50" width="50" alt="Facebook Logo" usemap="#facebook">
+        <img src="../Images/Originals/reddit_logo.jpg" height="50" width="50" alt="Reddit Logo" usemap="#reddit">
+        <img src="../Images/Originals/threads_logo.png" height="50" width="50" alt="Threads Logo" usemap="#threads">
+        <span> Copyright Haydendruve 2024</span>
+        <map name="facebook">
+            <area shape="default" alt="Facebook Logo" href="https://www.facebook.com/login.php/" >
+        </map>
+    
+        <map name="reddit">
+            <area shape="default" alt="Reddit Logo" href="https://www.reddit.com/login/" >
+        </map>
+    
+        <map name="threads"> 
+            <area shape="default" alt="Threads Logo" href="https://www.threads.net/login" >
+        </map>
+    </footer>
+    
+</body>
